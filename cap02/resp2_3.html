@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 03</title>
+</head>
+<style>
+    section{
+        font: italic bold 1em arial;
+        margin: 30px 30px;
+    }
+</style>
+<body>
+    <header>
+    <h1>Supermercado JS</h1>
+    </header>
+
+    <main>
+    <form>
+        <p>Produto:
+           <input type="text" id="inProduto"  required> 
+        </p>
+        <p>Preço R$:
+           <input type="number" id="inPreco" min="0" step="0.01" required> 
+        </p>
+        <input type="submit" value="Ver promoção">
+    </form>
+    <section>
+        <p id="outResp1"></p>
+        <p id="outResp2"></p>
+    </section>
+    </main>
+
+    <script src="js/resp2_3.js"></script>
+</body>
+</html>

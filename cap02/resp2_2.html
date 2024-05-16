@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 02</title>
+    <style>
+        #outResp1{
+            font: italic bold 1em 'serif';
+        }
+    </style>
+</head>
+<body>
+    <h1>Lan House JS</h1>
+    <form>
+        <p>Valor por 15min de uso R$:
+           <input type="number" id="inValor" min="0" step="0.01" required>     
+        </p>
+        <p>Tempo de Uso do Cliente:
+           <input type="number" id="inTempo" min="0" required> 
+        </p>
+        <input type="submit" value="Calcular valor a pagar">
+    </form>
+
+    <section>
+        <p id="outResp1"></p>
+    </section>
+
+    <script src="js/resp2_2.js"></script>
+</body>
+</html>

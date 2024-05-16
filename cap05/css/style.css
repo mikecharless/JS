@@ -1,0 +1,21 @@
+img.normal{
+    float: left;
+    height: 300px;
+    width: 300px;
+    margin-right: 20px;
+}
+
+img.alta{
+    float: left;
+    height: 400px;
+    width: 300px;
+    margin-right: 20px;
+}
+
+h1{
+    border-bottom-style: inset;
+}
+
+pre{
+    font: italic bold 1em serif;
+}

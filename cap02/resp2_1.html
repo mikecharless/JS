@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 1</title>
+    <style>
+        section{
+            margin-top: 30px;
+            font: italic bold 1em 'serif';
+            padding: 0px 10px 0px 41px;
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>Farmácia JS</h1>
+    <form>
+        <p>Medicamento: 
+           <input type="text" id="inMedicamento" required> 
+        </p>
+        <p>Preço R$:
+           <input type="number" id="inPreco" min="0" step="0.01" required> 
+        </p>
+        <input type="submit" value="Mostrar Promoção">
+    </form>
+
+        <section>
+            <p id="outResp1"></p>
+            <p id="outResp2"></p>
+        </section>
+
+    <script src="js/resp2_1.js"></script>
+</body>
+</html>

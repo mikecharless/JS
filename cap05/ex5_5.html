@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contas a pagar</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <img src="img/contas.webp" alt="contas" class="alta">
+    <h1>Programa Contas do Mês</h1>
+    <form>
+        <p>Descrição da conta:
+           <input type="text" id="inConta" required> 
+        </p>
+        <p>Valos a Pagar R$:
+           <input type="number" id="inValor" required min="0" step="0.01">  
+        </p>
+        <input type="submit" value="Registrar Conta">
+        <input type="reset" value="Limpar Dados">
+    </form>
+
+    <pre id="outResp1"></pre>
+    <pre id="outResp2"></pre>
+    
+    <script src="js/ex5_5.js"></script>
+</body>
+</html>
