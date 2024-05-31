@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consultório Odontológico</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <img src="img/consultorio-normal.jpg" alt="consultorio-normal" class="alta">
+    <h1>Consultório Odontológico</h1>
+
+    <form>
+        <p>Paciente:
+           <input type="text" id="inNome" required autofocus> 
+           <input type="submit" value="Adicionar">
+           <input type="button" value="Urgência" id="btUrgencia">
+           <input type="button" value="Atender" id="btAtender">
+        </p>
+    </form>
+
+    <pre id="outResp1">Em atendimento:
+        <span id="font-azul"></span>
+    </pre>
+    <pre id="outResp2"></pre>
+
+    <script src="js/ex6_1.js"></script>
+</body>
+</html>
