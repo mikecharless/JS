@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treino</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Treino II</h1>
+
+    <form>
+        <p>Número:
+           <input type="number" id="inNumero" min="0" max="100" required autofocus>
+           <input type="submit" value="Apostar" id="btSubmit">
+           <input type="button" value="Jogar de novo!" id="btNovo" class="oculta">
+        </p>
+    </form>
+
+    <pre>Erros: <span id="outResp1">0</span></pre>
+    <pre>Chances: <span id="outResp2">6</span></pre>
+    <pre>Dica: <span id="outResp3" class="italico">É um número entre 1 e 100</span></pre>
+
+    <script src="js/treino.js"></script>
+</body>
+</html>
